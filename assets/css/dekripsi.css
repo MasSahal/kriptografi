@@ -1,0 +1,90 @@
+body {
+  background: url(../picture/dekripsi.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: fixed;
+  color: #fff;
+}
+table {
+  background: #c0d6ff;
+  width: 750px;
+  border-collapse: collapse;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+tr:nth-of-type(odd) {
+  background: rgba(255, 255, 255, 0.438);
+}
+th {
+  background: #3498db;
+  color: #ccc;
+  font-weight: bold;
+}
+td,
+th {
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  font-size: 16px;
+}
+td {
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  color: rgb(39, 39, 39);
+}
+.form {
+  margin: auto;
+  position: relative;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.3);
+  max-width: 200px;
+  padding: 50px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 5px;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: aharoni;
+  text-transform: uppercase;
+  outline: 0;
+  background: #3498db;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.form button:hover,
+.form button:active.form button:focus {
+  background: rgb(135, 206, 250);
+}
+
+.btn {
+  padding: 5px 12px;
+  background-color: #47649b;
+  color: #ebebeb;
+  font-size: medium;
+  border: none;
+  transition-duration: 0.4s;
+  margin: auto;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #6a9eff;
+}
